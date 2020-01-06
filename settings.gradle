@@ -1,0 +1,2 @@
+include ':app', ':admob-advanced-native-recyvlerview'
+rootProject.name='AdmobAdvancedNativeRecyclerview'
