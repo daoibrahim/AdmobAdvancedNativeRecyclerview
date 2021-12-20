@@ -29,11 +29,11 @@ public class ContactsAdapter extends
             // to access the context from any ViewHolder instance.
             super(itemView);
 
-            nameTextView = (TextView) itemView.findViewById(R.id.contact_name);
-            messageButton = (Button) itemView.findViewById(R.id.message_button);
+            nameTextView = itemView.findViewById(R.id.contact_name);
+            messageButton = itemView.findViewById(R.id.message_button);
         }
     }
-    private List<Contact> mContacts;
+    private final List<Contact> mContacts;
 
     // Pass in the contact array into the constructor
     public ContactsAdapter(List<Contact> contacts) {

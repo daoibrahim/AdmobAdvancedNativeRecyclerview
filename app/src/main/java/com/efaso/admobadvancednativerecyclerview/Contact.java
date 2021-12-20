@@ -3,8 +3,8 @@ package com.efaso.admobadvancednativerecyclerview;
 import java.util.ArrayList;
 
 public class Contact {
-    private String mName;
-    private boolean mOnline;
+    private final String mName;
+    private final boolean mOnline;
 
     public Contact(String name, boolean online) {
         mName = name;
